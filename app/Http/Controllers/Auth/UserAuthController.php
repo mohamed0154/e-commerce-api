@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\User\LoginUserRequest;
 use App\Http\Requests\User\RegisterRequest;
+use App\Jobs\SendMails;
 use App\Models\User;
 use App\Traits\GetResponseJson;
 use Illuminate\Http\Request;
@@ -43,6 +44,9 @@ class UserAuthController extends Controller
         $user->code_expired_at = $code_expired_at;
         $user->save();
 
+        //send Mail
+        dispatch(new SendMails($user));
+       
         $user->token = $token;
         return $this->setData($user,'Success');
         
