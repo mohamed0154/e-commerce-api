@@ -1,6 +1,6 @@
 # E-Commerce RESTful API - Laravel
 
-[![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?logo=laravel)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?logo=laravel)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?logo=php)](https://php.net)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -12,7 +12,7 @@ A secure and scalable RESTful API for e-commerce platforms built with Laravel fr
 - **Multi-authentication system** (Users & Admins)
 - **Email verification** for user accounts
 - **Role-Based Access Control (RBAC)** via middleware
-- **JWT token authentication** for secure API access
+- **Barear token authentication** for secure API access
 
 ### 🗃️ Database & Product Management
 - **Optimized relational database schemas** for:
