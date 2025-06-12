@@ -12,7 +12,7 @@ A secure and scalable RESTful API for e-commerce platforms built with Laravel fr
 - **Multi-authentication system** (Users & Admins)
 - **Email verification** for user accounts
 - **Role-Based Access Control (RBAC)** via middleware
-- **Barear token authentication** for secure API access
+- **Bearer token authentication** for secure API access
 
 ### 🗃️ Database & Product Management
 - **Optimized relational database schemas** for:
